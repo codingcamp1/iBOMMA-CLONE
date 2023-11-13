@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adhipurush</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+            body{
+    background-color:#101010;
+    margin:0;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background: #151515;
+    width: 100%;
+    height: 100px;
+
+}
+
+.serch{
+    display: flex;
+    position: absolute;
+    left: 75%;
+}
+
+.se{
+    width: 200px;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: none;
+    background: #202020;
+    color: white;
+    border: none;
+}
+
+.serch-icon{
+    background-color: yellow;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+.d1{
+    text-align:center;
+    background-color:#131313;
+    height: 60px;
+    margin-left: 150px;
+    
+
+}
+
+.home{
+    color: white;
+    position: absolute;
+    left: 55%;
+    display: flex;
+    font-size: 0.85rem;
+}
+
+.home i{
+    color: yellow;
+    padding-right: 5px;
+}
+
+.about{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 62%;
+    font-weight: lighter;
+    font-size: 0.85rem;
+    
+
+}
+
+.about i{
+    color: yellow;
+    padding-right: 3px;
+}
+
+.bug{
+    color: white;
+    position: absolute;
+    left: 68%;
+    font-size: 0.85rem;
+}
+
+.bug i{
+    color: yellow;
+    padding-right: 3px;
+}
+
+
+.img1{
+    border-radius:5px;
+    margin-top:20px;
+    margin-left:10px;
+    float: left;
+    position: absolute;
+    left: 60px;
+
+}
+p{
+    color:white;
+    font-weight:bold;
+    margin-left:380px;
+    font-size:40px;
+}
+.p1{
+    color:white;
+    font-weight:400;
+    font-size:15px;
+    line-height:25px;
+}
+.p2, .p3{
+    color:white;
+    font-size:15px;
+    font-weight:400;
+}
+span{
+    font-weight:400;
+    color:grey;
+}
+.a1{
+    text-decoration:none;
+    background-color:#252525;
+    color:white;
+    padding:20px;
+    padding-left:50px;
+    padding-right:50px;
+    font-size:15px;
+    margin-left:380px;   
+    font-weight:400;     
+    border-radius:5px;  
+}
+.a2{
+    background-color:yellow;
+    color:black;
+    text-decoration:none;
+    padding:18px;
+    padding-left:50px;
+    padding-right:50px;
+    border-radius:5px;
+    font-weight:400;
+    margin-left:20px; 
+}
+.s1{
+    color:yellow;
+    font-size:15px;
+    font-weight:bold;
+}
+.p4{
+    color:grey;
+    margin:7px;
+    font-size: 1rem;
+    line-height:25px;
+}
+iframe{
+    margin-top:50px;
+    margin-left: 19%;
+}
+
+.p2 i{
+        color: white;
+        position: absolute;
+        left: 360px;
+        font-size: 15px;
+}
+
+.p3 i{
+    color: white;
+    position: absolute;
+    left: 360px;
+    font-size: 15px;
+}
+
+.a2 i{
+    padding-right: 10px;
+}
+
+.a1 i{
+    padding-right: 10px;
+}
+
+.fcontainer{
+    height: 80px;
+    width: 100%;
+    background: #151515;
+    display: flex;
+    align-items: center;
+}
+
+.ppp{
+    color: white;
+    margin-left: 70px;
+    font-size: 0.95rem;
+    
+}
+
+.ppp2{
+    position: absolute;
+    right: 91%;
+    font-size: 1.5rem;
+
+}
+
+
+.m1{
+    margin-left: 50px;
+}
+
+.m1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.m1 i{
+    color: yellow;
+    margin-right: 10px;
+}
+
+
+.m2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.m2 i{
+    color: yellow;
+    margin-right: 5px;
+}
+
+.and{
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.ppp3{
+    color: white;
+    position: absolute;
+    left: 55%;
+
+    font-size: 0.95rem;
+}
+.ppp4{
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 57%;
+
+}
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="nav-bar">
+        <div class="d1">
+            <img src="ibomma.jpg" alt="ibomma" width="150px" height="65px">
+        </div>
+        <div class="home">
+            <i class="fa-solid fa-house"></i> Home
+        </div>
+        <div class="about">
+            <i class="fa-solid fa-info"></i>
+            About
+        </div>
+    
+        <div class="bug">
+            <i class="fa-solid fa-bug"></i>
+            Bug
+        </div>
+        <div class="serch">
+            <input placeholder="Search.." class="se">
+            <div class="serch-icon"><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+    <img src="adhipurush.jpeg" alt="adhipurush" width="230px" height="375px" class="img1">
+    <p>Adhipurush</p>
+    <p class="p1">2023<br>Action/Adventure/Drama</p>
+    <br>
+    <p class="p2"><i class="fa-solid fa-user"></i>Cast: <span>Prabhas, Kriti Sanon, Saif Ali Khan</span></p>
+    <p class="p3"><i class="fa-solid fa-user"></i>Director: <span>Om Raut</span></p>
+    <br><br>
+    <a href="#" class="a1"><i class="fa-solid fa-arrow-trend-up"></i>TRAILER</a>
+    <a href="#" class="a2"><i class="fa-solid fa-download"></i>MOBILE DOWNLOAD</a><br><br><br><br><br><br>
+    <iframe width="1000" height="550" src="https://www.youtube.com/embed/e3ew7YUeeQc?si=d8-49OTopZu4t3Yi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+  <p class="p4"><span class="s1">Synopsis:</span>The modern adaptation of the Indian epic Ramayana which follows the exiled prince Raghav's journey to rescue his wife Janaki from the demon king Lankesh. </p>
+
+  <footer>
+    <div class="fcontainer">
+        <p class="ppp">Contact </p> 
+        <p class="ppp2">|</p>
+        <div class="m1"><i class="fa-solid fa-user"></i><a href="mailto:sukeshthatipalli@gmail.com">Sukesh Gupta</a></div>
+                <p class="and">||</p>
+            <div class="m2">
+            <i class="fa-solid fa-user"></i><a href="mailto:narsingsanjay35@gmail.com">Sanjay Naring</a></div>
+
+            <p class="ppp3">&copy;</p>
+            <p class="ppp4">Sprint Tech</p>
+    </div>
+</footer>
+</body>
+</html>
